@@ -1,0 +1,15 @@
+{
+    "name": "rafl/slim4_vue3_example",
+    "autoload": {
+        "psr-4": {
+            "Rafl\\Slim4Vue3Example\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rafael Araújo Rocha",
+            "email": "40602200+bl4nc@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
