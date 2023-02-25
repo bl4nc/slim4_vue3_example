@@ -2,14 +2,22 @@
     "name": "rafl/slim4_vue3_example",
     "autoload": {
         "psr-4": {
-            "Rafl\\Slim4Vue3Example\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [
         {
             "name": "Rafael Araújo Rocha",
-            "email": "40602200+bl4nc@users.noreply.github.com"
+            "email": "bl4anc@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "slim/slim": "4.*",
+        "slim/http": "^1.3",
+        "slim/php-view": "^3.2",
+        "slim/psr7": "^1.6",
+        "firebase/php-jwt": "^6.4",
+        "ramsey/uuid": "^4.7"
+    }
 }

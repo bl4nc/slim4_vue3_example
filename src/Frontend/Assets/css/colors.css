@@ -1,0 +1,27 @@
+:root {
+  --c-light-blue: #007bff;
+  --c-blue: #0e1f93;
+  --c-dark-blue: #090152;
+  --c-cian: #17a2b8;
+  --c-yellow: #f6c23e;
+  --c-red: #e74a3b;
+  --c-green: #1cc88a;
+  --c-gray: #e5e5e5;
+  --c-dark-gray: #858796;
+}
+
+.bg-blue {
+  background: var(--c-blue) !important;
+}
+
+.bg-red {
+  background: var(--c-red) !important;
+}
+
+.text-red {
+  color: var(--c-red) !important;
+}
+
+.text-blue {
+  color: var(--c-blue) !important;
+}
